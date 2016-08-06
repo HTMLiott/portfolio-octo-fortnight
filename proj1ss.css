@@ -1,0 +1,199 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px; 
+	padding: 0 10px; 
+}
+
+
+/* Header */
+.header {
+  background-image:url("https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/bg.jpg");
+  background:cover;
+  height: 800px;
+  text-align: center; 
+  background-color:black;
+  margin-top: -20px;
+}
+
+.header .container {
+	position: relative;
+	top: 200px;
+}
+
+.main .container img {
+  float:left;
+  margin:50px 80px 50px 0;
+}
+
+.header h1 {
+	font-size: 80px;
+	line-height: 100px; 
+	margin-top: 10px;
+	margin-bottom: 80px;
+  color:white;
+}
+
+.header p {
+  color:white;
+}
+
+@media (min-width:850px) {
+	.header h1 {
+		font-size: 120px;
+	}
+}
+
+.header p {
+	font-weight: 500;
+	letter-spacing: 8px;
+	margin-bottom: 40px;
+	margin-top: 0;
+}
+
+#black:hover {
+  background:black;
+  transition:background .5s;
+  color:teal;
+}
+
+.btn:hover {
+	background: #117bff;
+	cursor: pointer; 
+	transition: background .5s; 
+}
+
+.btn {
+  color:blue;
+  background-color:white;
+  text-decoration:none;
+  padding:10px;
+  border-radius:15px
+}
+
+/* Nav */
+.nav {
+  background-color:black;
+}
+
+.nav ul {
+	list-style: none;
+	margin: 0 auto; 
+	padding: 30px 0;
+	display:inline;
+  margin-left:5px;
+}
+
+.nav ul li {
+  background-color:white;
+  display:inline-block;
+  border-radius:2px;
+  padding:2px;
+}
+
+
+/* Main */
+.main .container {
+	margin: 80px auto;
+}
+
+.main .container img {
+  float:left;
+}
+
+/* Jumbotron */
+.jumbotron {
+	height: 600px; 
+	text-align: right;
+  background:url("comp.jpg")center no-repeat;
+  background-size: cover;
+}
+
+
+.jumbotron h1 {
+	font-size: 80px;
+	line-height: 100px; 
+	margin-top: 0;
+	margin-bottom: 80px;
+  color:white;
+  text-align:center;
+}
+
+.jumbotron p {
+  color:white;
+  margin-right:10px;
+}
+
+.jumbotron .btn {
+    margin-right:10px;
+}
+
+.jumbotron .container {
+  	position: relative;
+  	top: 220px;
+}
+
+/*SPECIAL*/
+
+body {
+  position:relative;
+}
+
+body:hover .appear{
+  display: block;
+}
+
+.appear { 
+  display:none;
+  position:fixed; top:0; right:0;
+  background: rgba(0,0,0, 0.4);
+  color:white;
+  z-index: 1;  
+  padding:20px 20px 10px 20px;
+  transition:background 1s;
+}
+
+.appear:hover{
+  background:transparent;
+  color:transparent;
+}
+
+/*SPECIAL*/
+
+/* Footer */
+.footer { 
+	font-size: 14px;
+  background-color:black;
+  color:#117bff;
+  text-align:center;
+}
+
+.footer p { margin:0px;
+font-size: 14px;
+  height:60px;
+  line-height:60px;
+}
+
+/* Media Queries */
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}

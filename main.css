@@ -1,0 +1,77 @@
+html, body {
+	background:url("catwall.jpg")center no-repeat;
+	background-size:cover;
+	margin:0;	
+	font-family:'Roboto Mono', monospace;
+	cursor:default;
+}
+
+/*header*/
+
+.header {
+	margin-bottom:150px;
+	background:rgba(255, 255, 255, 0.2);
+	height:200px;	
+	border-top:20px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-tabs {
+	margin-left:5px;
+	width:500px;
+}
+
+.nav-tabs li a:hover {
+	background:transparent;
+	box-shadow:1px 2px 4px grey;
+	border:none;
+}
+
+.header img {
+	width:60px;
+	margin:-5px 0 0 5px;
+}
+
+.header h1 {
+	color:white;
+	text-shadow:1px 3px 4px grey;
+	font-size:50px;
+	letter-spacing: 10px;
+	font-family: 'Exo', sans-serif;
+}
+
+/*main*/
+
+.main {
+	margin-bottom:340px;
+}
+
+/*footer*/
+
+.footer {
+	background:rgba(255, 255, 255, 0.2);
+	color:#236ea0;
+	padding:40px 0 30px 0;
+}
+
+.footer img {
+	width:25px;
+}
+
+.footer img:hover {
+	background;grey;
+}
+
+.footer li a {
+	color:#236ea0;
+}
+
+.footer li {
+	list-style-type: none;
+	display:inline;
+	padding:10px;
+}
+
+.footer li a:hover {
+	text-decoration: none;
+	text-shadow: 1px 3px 4px grey;
+}

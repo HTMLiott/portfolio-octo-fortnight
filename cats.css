@@ -1,0 +1,268 @@
+html, body {
+  margin: 0;
+}
+
+h1, h2, a {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  height:300px;
+}
+
+#con1 {
+  height:100px;
+  font-family:cursive;
+  letter-spacing: 15px;
+}
+
+/* Main */
+.main {
+  background-image:url("https://siansmithdotcom.files.wordpress.com/2012/10/sitting-laying-cats-lines.jpg");
+  text-align:center;
+  height:380px;
+  margin-top:-170px;
+}
+
+.main h1 {
+  font-size: 150px;
+}
+
+.main p {
+  font-size: 18px;
+  text-shadow:1px 1px grey;
+  letter-spacing:4px;
+}
+
+#meowbtn {
+  background-color:violet;
+  color:white;
+  font-weight:bold;
+  font-family:cursive;
+  padding:5px 10px 5px 10px;
+  text-decoration:none;
+}
+
+#meowbtn:hover {
+  box-shadow: 2px 2px grey;
+}
+
+#dropdown {
+  background-color:white;
+  color:black;
+  position:relative; left:20px; top:10px;
+  height:18px;
+  width:76px;
+  font-family:helvetica;
+  letter-spacing: 4px;
+  border: 4px ridge white;
+  padding:4px;
+}
+
+#dropdown:hover #insides {
+  display:block;
+}
+
+#insides {
+  position:absolute;
+  background-color: white;
+  display:none;
+  border:4px groove white;
+  margin-left:-7px;
+}
+
+#insides ul {
+  list-style-type: none;
+}
+
+#insides li {
+  line-height:35px;
+  font-size:12px;
+  padding-right: 20px;
+  margin-left:-18px;
+  margin-right:-10px;
+}
+
+#insides a {
+  text-decoration: none;
+  color:black;
+}
+
+#insides a:hover {
+  font-style: italic;
+  color:violet;
+}
+
+#pet {
+    font-family:cursive;
+    color:violet;
+    font-weight:bold;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Supporting */
+.supporting {
+  text-align: center;
+  padding: 20px 0 60px;
+  background-color:#1c1c1c;
+}
+
+.supporting .col {
+  float: left;
+  width: 28%;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.supporting h1,
+.supporting h2 {
+  color: violet;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  color:violet;
+  background-color: #1c1c1c;
+  transition: background .7s;
+}
+
+#shrink {
+  padding-top: 20px;
+  margin-bottom:-120px;
+}
+
+/* Feature */
+.feature {
+  height: 420px;
+  background-image:url("https://siansmithdotcom.files.wordpress.com/2012/10/cat-laying-lines.jpg");
+}
+
+.feature h1,
+.feature h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+  padding:50px 0 0;
+}
+
+/*SPECIAL*/
+
+body {
+  position:relative;
+}
+
+body:hover .appear{
+  display: block;
+}
+
+.appear { 
+  display:none;
+  position:fixed; top:0; right:0;
+  background: rgba(0,0,0, 0.4);
+  color:white;
+  z-index: 1;  
+  padding:20px 20px 10px 20px;
+  transition:background 1s;
+}
+
+.appear:hover{
+  background:transparent;
+  color:transparent;
+}
+
+/*SPECIAL*/
+
+/* Footer */
+.footer {
+  height: 200px;
+  display:inline-flex;
+  background color:grey;
+}
+
+
+.footer h1,
+.footer h2 {
+  color: #000;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding:50px 0 0;
+}
+
+.footer p {
+  color: #000;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.footcol {
+  float:right;
+  margin-right:50px;
+}
+
+.footer li {
+  color: #000;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  font-family:helvetica;
+  font-size:12px;
+  letter-spacing:4px;
+}
+
+
+@media (min-width:600px) {
+  .main h1 {
+    font-size: 200px;
+  }
+
+  .supporting .col {
+    width: 30%;
+  }
+
+  .supporting h2 {
+    font-size: 40px;
+  }
+
+  .supporting p {
+    font-size: 14px;
+  }
+
+  .feature h2 {
+    font-size: 60px;
+  }
+  
+  .none {
+      color:black;
+      text-decoration:none;
+  }
+  
+  .none:hover {
+      color:violet;
+  }
