@@ -49,13 +49,17 @@ html, body {
 	position:relative;
 }
 
+.special p {
+	margin-left:150px;
+}
+
 h5 {
 	margin-top:60px;
 	position:absolute;
 }
 
 #codecat {
-	width:120%;
+	width:200%;
 }
 
 #center {
