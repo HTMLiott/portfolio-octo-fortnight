@@ -1,5 +1,5 @@
 html, body {
-	background:url("lame.jpg")center no-repeat;
+	background:url("pic/lame.jpg")center no-repeat;
 	background-size: cover;
 	background-position: fixed;
 	margin:0;	
@@ -14,7 +14,7 @@ html, body {
 	border-bottom:20px solid rgba(255, 255, 255, 0.2);
 	margin-bottom:60px;
 	height: 200px;
-	background:url("catwall.jpg")center no-repeat;
+	background:url("pic/catwall.jpg")center no-repeat;
 	background-size: cover;
 	background-position: fixed;
 }
