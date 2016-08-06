@@ -1,5 +1,5 @@
 html, body {
-	background:url("pic/lame.jpg")center no-repeat;
+	background:url("lame.jpg")center no-repeat;
 	background-size: cover;
 	background-position: fixed;
 	margin:0;	
@@ -14,7 +14,7 @@ html, body {
 	border-bottom:20px solid rgba(255, 255, 255, 0.2);
 	margin-bottom:60px;
 	height: 200px;
-	background:url("pic/catwall.jpg")center no-repeat;
+	background:url("catwall.jpg")center no-repeat;
 	background-size: cover;
 	background-position: fixed;
 }
@@ -44,6 +44,19 @@ html, body {
 }
 
 /*main*/
+
+.special {
+	position:relative;
+}
+
+h5 {
+	margin-top:60px;
+	position:absolute;
+}
+
+#codecat {
+	width:120%;
+}
 
 #center {
 	text-align: center;
@@ -100,10 +113,17 @@ html, body {
 	float:right;
 }
 
-.main h4, h5 {
+.main h4 {
 	text-align:center;
 	color:#236ea0;
 	margin: -60px 0 40px 0;
+	padding-top:20px;
+	border-top:20px solid rgba(221, 221, 221, 0.2);
+}
+
+.main h3 {
+	color:#236ea0;
+	margin: -60px 0 40px 40px;
 	padding-top:20px;
 	border-top:20px solid rgba(221, 221, 221, 0.2);
 }
