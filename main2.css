@@ -30,6 +30,12 @@ html, body {
 	border:none;
 }
 
+.nav-tabs .active a:hover {
+	background:transparent;
+	box-shadow:1px 2px 4px white;
+	border:none;
+}
+
 .header img {
 	width:60px;
 	margin:-5px 0 0 5px;
@@ -37,7 +43,7 @@ html, body {
 
 .header h1 {
 	color:white;
-	text-shadow:1px 3px 4px grey;
+	text-shadow:1px 6px 10px grey;
 	font-size:50px;
 	letter-spacing: 10px;
 	font-family: 'Exo', sans-serif;
@@ -179,5 +185,5 @@ h5 {
 
 .footer li a:hover {
 	text-decoration: none;
-	text-shadow: 1px 2px 4px grey;
+	text-shadow: 1px 2px 4px white;
 }
