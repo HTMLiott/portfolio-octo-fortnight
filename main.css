@@ -4,6 +4,7 @@ html, body {
 	margin:0;	
 	font-family:'Roboto Mono', monospace;
 	cursor:default;
+	background-color:#bdbfb1;
 }
 
 /*header*/
