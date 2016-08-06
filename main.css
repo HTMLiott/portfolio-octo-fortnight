@@ -48,14 +48,14 @@ html, body {
 /*main*/
 
 .main {
-	margin-bottom:260px;
+	margin-bottom:280px;
 }
 
 /*footer*/
 
 .footer {
 	background:rgba(255, 255, 255, 0.2);
-	background-size:cover;
+	background-size:contain;
 	color:#236ea0;
 	padding:30px 40px 20px 0;
 	margin-right:150px;
