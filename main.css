@@ -48,7 +48,7 @@ html, body {
 /*main*/
 
 .main {
-	margin-bottom:340px;
+	margin-bottom:300px;
 }
 
 /*footer*/
@@ -57,6 +57,7 @@ html, body {
 	background:rgba(255, 255, 255, 0.2);
 	color:#236ea0;
 	padding:40px 0 30px 0;
+	width:100%;
 }
 
 .footer img {
