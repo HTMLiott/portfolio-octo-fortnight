@@ -33,9 +33,9 @@ else {
 
 document.write(" Little Bunny Foo Foo is hopping through the forrest, scooping up the field mice and bopping them on the head.");
 
-document.write("SNAAAAAAKE! Aaaaah, it's A SNAAAAKE!");
+document.write(" SNAAAAAAKE! Aaaaah, it's A SNAAAAKE!");
 
-document.write("Little bunny foo foo has to throw the field mice at it, and FAST!");
+document.write(" Little bunny foo foo has to throw the field mice at it, and FAST!");
 
 var userAnswer2 = prompt("How many field mice do you throw?");
 
