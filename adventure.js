@@ -39,11 +39,11 @@ document.write(" Little bunny foo foo has to throw the field mice at it, and FAS
 
 var userAnswer2 = prompt("How many field mice do you throw?");
 
-if (userAnswer2 <=99999) {
-	alert("That won't do it, you foo foo FOOL! There's a reason I shouted this SNAAAAAAKE in all CAPS!");
+if (userAnswer2 >=99999) {
+	alert("Oh, thank goodness for you,"+" "+name+". You may have exterminated the entire field mouse population, but you saved one bunny rabbit.");
 }
 else {
-	alert("Oh, thank goodness for you,"+" "+name+". You may have exterminated the entire field mouse population, but you saved one bunny rabbit.");
+	alert("That won't do it, you foo foo FOOL! There's a reason I shouted this SNAAAAAAKE in all CAPS!");	
 }
 
 document.write("\<br>\WOW he disapeared! That's great.");
