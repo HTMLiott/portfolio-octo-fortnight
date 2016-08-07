@@ -8,7 +8,7 @@ html, body {
 }
 
 @import url(http://fonts.googleapis.com/earlyaccess/thabit.css);
-.thabit{font-family: 'Thabit', serif;}
+body {font-family: 'Thabit', serif;}
 
 /*header*/
 
