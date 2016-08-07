@@ -7,9 +7,6 @@ html, body {
 	cursor:default;
 }
 
-@import url(http://fonts.googleapis.com/earlyaccess/thabit.css);
-body {font-family: 'Thabit', serif;}
-
 /*header*/
 
 .header {
