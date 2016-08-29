@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+  <link rel='stylesheet' href='catshop.css'/>
+  </head>
+  <body>
+
+
+
+      <!-- Feature section -->
+    <div class="feature">
+<div class=containter>
+<div class="row">
+<div class="col-md-3"></div>
+<div class="col-md-6">
+<video src="vid/catshopvid.mp4" autoplay ></video>
+</div>
+ <div class="coll-md-3 pull-right">  
+ </div>
+</div>
+</div>
+  </div>
+
+
+    <!-- Main section -->
+    <div class="main">      
+<img src="img/gosh.png" width="400" height="100">
+<ul class="nav nav-pills nav-stacked">
+  <li role="presentation" class="active"><a href="#"><img src="img/cathead.png"></a></li>
+          <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      Fashions <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+  </ul>
+  <li role="presentation"><a href="#">Stationary</a></li>
+    <li role="presentation"><a href="#">Delectibles</a></li>
+          <li role="presentation"><a href="#">Home Decor</a></li>
+  <li role="presentation"><a href="#">Miscenlaneous</a></li>
+  <li role="presentation"><a href="#">Clearance Cats</a></li>
+</ul>
+      <div class="content container">
+
+      </div>            
+    </div>
+
+  
+
+
+    <!-- First supporting section -->
+    <div class="supporting">
+      <div class="container">
+
+      </div>
+    </div>
+
+
+
+    
+    <!-- Second supporting section -->
+    <div class="supporting">
+      <div class="container">
+
+ </div>
+ <div class="row">
+
+      </div>
+    </div>
+
+    
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <p>
+          &copy; OneStopCatShop
+        </p>
+      </div>
+    </div>
+    
+  </body>
+</html>
