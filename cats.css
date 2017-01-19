@@ -54,7 +54,7 @@ p {
 }
 
 #dropdown {
-  background-color:white;
+  background-color:#EE82EE;
   color:black;
   position:relative; left:20px; top:10px;
   height:18px;
@@ -97,7 +97,7 @@ p {
 
 #insides a:hover {
   font-style: italic;
-  color:violet;
+  color:black;
 }
 
 #pet {
