@@ -40,6 +40,231 @@
 	<a href="http://res.cloudinary.com/hmtliott/image/upload/v1470502507/locationlrg_ubollt.png" target="_blank"><img id="lrgimg" class="img-responsive" src="locationsmall.jpg"></a>
 		</div></div>
 			<div class="col-md-8">
+				<div id='product-component-43eef6a84fa'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: '1stopcatshop.myshopify.com',
+      apiKey: 'bedb58c2ed3f966eca2c8bf7b6022ddd',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [7989460929],
+        node: document.getElementById('product-component-43eef6a84fa'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "contents": {
+      "variantTitle": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "BUY NOW"
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#a750bd",
+        "font-family": "Montserrat, sans-serif",
+        ":hover": {
+          "background-color": "#9648aa"
+        },
+        ":focus": {
+          "background-color": "#9648aa"
+        },
+        "font-weight": "normal"
+      },
+      "variantTitle": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "normal"
+      },
+      "title": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "normal"
+      },
+      "description": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "normal"
+      },
+      "compareAt": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Montserrat",
+      "Montserrat",
+      "Montserrat",
+      "Montserrat",
+      "Montserrat",
+      "Montserrat"
+    ]
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#a750bd",
+        "font-family": "Montserrat, sans-serif",
+        ":hover": {
+          "background-color": "#9648aa"
+        },
+        ":focus": {
+          "background-color": "#9648aa"
+        },
+        "font-weight": "normal"
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Montserrat"
+    ]
+  },
+  "modalProduct": {
+    "contents": {
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#a750bd",
+        "font-family": "Montserrat, sans-serif",
+        ":hover": {
+          "background-color": "#9648aa"
+        },
+        ":focus": {
+          "background-color": "#9648aa"
+        },
+        "font-weight": "normal"
+      },
+      "variantTitle": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "normal"
+      },
+      "title": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "normal"
+      },
+      "description": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "normal"
+      },
+      "compareAt": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Montserrat",
+      "Montserrat",
+      "Montserrat",
+      "Montserrat",
+      "Montserrat",
+      "Montserrat"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Montserrat, sans-serif",
+        "background-color": "#a750bd",
+        ":hover": {
+          "background-color": "#9648aa"
+        },
+        ":focus": {
+          "background-color": "#9648aa"
+        },
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Montserrat"
+    ]
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Montserrat, sans-serif"
+      },
+      "select": {
+        "font-family": "Montserrat, sans-serif"
+      }
+    },
+    "googleFonts": [
+      "Montserrat",
+      "Montserrat"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
 <p id="center">نحن حاجا فاونت جديد<br>
 Come and knock on our door... (Come and knock on our door)<br>
 We've been waiting for you.... (We've been waiting for you)<br>
